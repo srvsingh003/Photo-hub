@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  font-size: 50px;
+  background: #cf156c;
+  background: linear-gradient(to right, #cf156c 0%, #cfc317 59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.image-list {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 5px;
+  /* columns: 6 200px; */
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  height: 180px; /* You can adjust the max-height as per your requirement */
+  object-fit: cover;
+  border-radius: 5px;
+}
